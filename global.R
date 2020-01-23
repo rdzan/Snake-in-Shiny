@@ -6,17 +6,10 @@ library(shinyBS)
 library(shinyWidgets) 
 library(shinyalert) 
 library(knitr) 
-# library(kableExtra) 
 library(data.table) 
 
 # source funkcji pomocniczych 
 sapply(list.files("R"), function(x){source(paste("R", x, sep = "/"), local = F)})
-# source(file = "R/convertFunction.R", local = F) 
-# source(file = "R/createField.R", local = F) 
-# source(file = "R/initializeSnake.R", local = F) 
-# source(file = "R/make_snake.R", local = F) 
-# source(file = "R/getGameDirection.R", local = F) 
-# source(file = "R/prepareScoresTable.R", local = F) 
 
 # parametry pola gry 
 width <<- 20 

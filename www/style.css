@@ -1,3 +1,7 @@
+#everything {
+  width: 40%; 
+  margin: auto; 
+}
 
 #field {
   display: flex; 
@@ -56,5 +60,15 @@
 
 .point-lights {
   background-color: black; 
-  border-radius: 40%; 
+  border-radius: 35%; 
 } 
+
+.sweet-alert {
+  top: 37% !important; 
+  padding-bottom: 27px; 
+}
+
+caption {
+  font-weight: 900; 
+  margin-bottom: 10px; 
+}
