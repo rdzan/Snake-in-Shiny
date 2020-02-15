@@ -7,7 +7,7 @@ initializeSnake <- function(snake, n = height, m = width){
   # losuję żarcie wężowi ale tak aby nie wpadło na samego siebie 
   food <- sample(setdiff(0:(n * m - 1), snake), size = 1) 
   # i rozświetlam jedzonko 
-  addClass(as.character(food), class = "point-lights") 
+  addClass(as.character(food), class = "point-lights")
   # kasuje punkty 
   runjs(sprintf("$('#punctation').html('Score: %s');", 0)) 
   return(food) 
